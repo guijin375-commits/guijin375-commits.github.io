@@ -97,22 +97,6 @@
     </div>
   </div>
 
-  <!-- Showreel Modal
-  <div id="showreelModal" class="showreel-modal">
-    <button id="closeShowreel" class="absolute top-6 right-6 md:top-8 md:right-10">
-      <svg class="w-6 h-6 text-fg hover:text-accent transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12"/>
-      </svg>
-    </button>
-    <div class="text-center">
-      <div class="w-20 h-20 mx-auto mb-6 rounded-full border border-border flex items-center justify-center">
-        <svg class="w-8 h-8 text-muted" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-      </div>
-      <p class="text-muted text-sm tracking-widest uppercase">Showreel Coming Soon</p>
-      <p class="text-muted text-xs mt-2">Full showreel video will be available here</p>
-    </div>
-  </div> -->
-
   <!-- Showreel Modal -->
 <div id="showreelModal" class="showreel-modal">
   <button id="closeShowreel" class="absolute top-6 right-6 md:top-8 md:right-10 z-10">
@@ -135,71 +119,38 @@
   </div>
 </div>
 
-  <!-- Navigation -->
-  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500">
-    <div class="max-w-7xl mx-auto px-6 md:px-10 py-5 flex items-center justify-between">
-      <a href="#home" class="relative z-[100] flex items-center gap-2">
-        <img src="https://z-cdn-media.chatglm.cn/files/5d210005-82c7-4c73-93b8-24db34a0b28c.jpeg?auth_key=1874772568-701ec130ed334a4fb749e37201d69865-0-678b5153380bcff437b06d988c03fe6f" alt="Blackkat Pictures" class="h-9 w-auto rounded-sm">
-      </a>
+<!-- Navigation -->
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500">
+  <div class="max-w-7xl mx-auto px-20 md:px-10 py-5 flex items-center justify-between">
+    <a href="#home" class="relative z-[100] flex items-center gap-2">
+      <img src="Blackkat.png" alt="Blackkat Pictures" class="h-14 w-auto rounded-sm">
+    </a>
 
-      <div class="hidden lg:flex items-center gap-8">
-        <a href="#about" class="nav-link-sm">About</a>
-        <a href="#services" class="nav-link-sm">Services</a>
-        <a href="#portfolio" class="nav-link-sm">Portfolio</a>
-        <a href="#team" class="nav-link-sm">Team</a>
-        <a href="#contact" class="btn-primary btn-sm">Get a Quote</a>
-      </div>
-
-      <button id="menuBtn" class="relative z-[100] flex items-center gap-3 group lg:hidden" aria-label="Open menu">
-        <span class="text-xs tracking-[0.2em] uppercase text-muted group-hover:text-fg transition-colors">Menu</span>
-        <div class="w-8 h-8 flex flex-col items-center justify-center gap-1.5">
-          <span class="w-5 h-[1px] bg-fg transition-all duration-300 menu-line-1"></span>
-          <span class="w-5 h-[1px] bg-fg transition-all duration-300 menu-line-2"></span>
-        </div>
-      </button>
-      <button id="menuBtnDesktop" class="relative z-[100] hidden lg:flex items-center gap-3 group" aria-label="Open menu">
-        <span class="text-xs tracking-[0.2em] uppercase text-muted group-hover:text-fg transition-colors">Menu</span>
-        <div class="w-8 h-8 flex flex-col items-center justify-center gap-1.5">
-          <span class="w-5 h-[1px] bg-fg transition-all duration-300 menu-line-1"></span>
-          <span class="w-5 h-[1px] bg-fg transition-all duration-300 menu-line-2"></span>
-        </div>
-      </button>
+    <div class="hidden lg:flex items-center gap-8">
+      <a href="#about" class="nav-link-sm">About</a>
+      <a href="#services" class="nav-link-sm">Services</a>
+      <a href="#portfolio" class="nav-link-sm">Portfolio</a>
+      <a href="#team" class="nav-link-sm">Team</a>
+      <a href="#contact" class="btn-primary btn-sm">Get a Quote</a>
     </div>
-  </nav>
 
+    <button id="menuBtn" class="relative z-[100] flex items-center gap-3 group lg:hidden" aria-label="Open menu">
+      <span class="text-xs tracking-[0.2em] uppercase text-muted group-hover:text-fg transition-colors">Menu</span>
+      <div class="w-8 h-8 flex flex-col items-center justify-center gap-1.5">
+        <span class="w-5 h-[1px] bg-fg transition-all duration-300 menu-line-1"></span>
+        <span class="w-5 h-[1px] bg-fg transition-all duration-300 menu-line-2"></span>
+      </div>
+    </button>
+    <button id="menuBtnDesktop" class="relative z-[100] hidden lg:flex items-center gap-3 group" aria-label="Open menu">
+      <span class="text-xs tracking-[0.2em] uppercase text-muted group-hover:text-fg transition-colors">Menu</span>
+      <div class="w-8 h-8 flex flex-col items-center justify-center gap-1.5">
+        <span class="w-5 h-[1px] bg-fg transition-all duration-300 menu-line-1"></span>
+        <span class="w-5 h-[1px] bg-fg transition-all duration-300 menu-line-2"></span>
+      </div>
+    </button>
+  </div>
+</nav>
   <!-- ==================== HERO ==================== -->
-  <!-- <section id="home" class="hero-section">
-    <div class="hero-bg" style="background-image: url('https://z-cdn-media.chatglm.cn/files/843a9249-b932-42da-8544-8acd81e1e388.jpg?auth_key=1874772568-3fd684c306d941aeaec8af8b40addc77-0-356f61ef4bf443bbcb3274fde9259635')"></div>
-    <div class="hero-gradient"></div>
-
-    <div class="relative z-10 text-center px-6 max-w-5xl mx-auto pt-20">
-      <div class="hero-line" style="animation-delay: 0.3s;">
-        <p class="section-label mb-6">Blackkat Pictures — Kuala Lumpur</p>
-      </div>
-      <h1 class="font-display font-bold leading-[0.95] mb-8">
-        <span class="hero-line block text-4xl md:text-6xl lg:text-7xl xl:text-8xl" style="animation-delay: 0.5s;">Crafting Stories That</span>
-        <span class="hero-line block text-4xl md:text-6xl lg:text-7xl xl:text-8xl text-accent" style="animation-delay: 0.65s;">Move</span>
-        <span class="hero-line block text-4xl md:text-6xl lg:text-7xl xl:text-8xl" style="animation-delay: 0.8s;">The World</span>
-      </h1>
-      <div class="hero-line" style="animation-delay: 1s;">
-        <p class="text-muted text-base md:text-lg max-w-xl mx-auto mb-10 leading-relaxed">
-          Premium film production for brands that demand excellence.<br class="hidden md:block"> We transform visions into cinematic reality.
-        </p>
-      </div>
-      <div class="hero-line flex flex-col sm:flex-row gap-4 justify-center" style="animation-delay: 1.15s;">
-        <a href="#contact" class="btn-primary">Start Your Project</a>
-        <a href="#showreel" id="heroShowreelBtn" class="btn-outline">
-          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-          View Showreel
-        </a>
-      </div>
-    </div>
-
-    <!-- <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3">
-      <span class="text-[0.65rem] tracking-[0.25em] uppercase text-muted">Scroll</span>
-      <div class="scroll-line"></div>
-    </div> -->
-  </section> -->
 
   <section id="home" class="hero-section">
   <!-- Video Background -->
@@ -255,24 +206,9 @@
   </div>
 
   <!-- ==================== SHOWREEL ==================== -->
-  <!-- <section id="showreel" class="showreel-section relative" style="height: 65vh; min-height: 400px;">
-    <div class="showreel-bg" style="background-image: url('https://z-cdn-media.chatglm.cn/files/72fb454d-579e-43b3-bd1c-859a3182b723.jpg?auth_key=1874772568-3246f6428e7943609b3c8cf2820829a3-0-ee6a7e5fe0cf23e2ffd9d806a37f3ed4')"></div>
-    <div class="absolute inset-0 bg-black/40"></div>
-    <div class="relative z-10 h-full flex flex-col items-center justify-center gap-6">
-      <button id="showreelPlayBtn" class="play-btn interactive" aria-label="Play showreel">
-        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-      </button>
-      <div class="text-center">
-        <p class="text-xs tracking-[0.25em] uppercase text-white/60 mb-1">Watch Our</p>
-        <p class="font-display text-2xl md:text-3xl font-semibold">Showreel</p>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- ==================== SHOWREEL ==================== -->
 <section id="showreel" class="showreel-section relative" style="height: 80vh; min-height: 500px;">
   <!-- Background Image -->
-  <div class="showreel-bg" style="background-image: url('https://z-cdn-media.chatglm.cn/files/72fb454d-579e-43b3-bd1c-859a3182b723.jpg?auth_key=1874772568-3246f6428e7943609b3c8cf2820829a3-0-ee6a7e5fe0cf23e2ffd9d806a37f3ed4')"></div>
+  <div class="showreel-bg" style="background-image: url('filming.jpg')"></div>
 
   <!-- Dark overlay with vignette -->
   <div class="absolute inset-0 bg-black/50"></div>
@@ -362,7 +298,7 @@
         </div>
         <div class="lg:col-span-5 reveal-right reveal-delay-2">
           <div class="img-reveal rounded-sm overflow-hidden" style="aspect-ratio: 3/4;">
-            <img src="https://z-cdn-media.chatglm.cn/files/85ba4519-0cab-464e-9a52-ceeb948d4f3d.jpg?auth_key=1874772568-72509c9cab954bceb6034f93738c0421-0-c44a4d16a1dbb680c68113c9101f711c" alt="Cinematic Equipment" class="w-full h-full object-cover">
+            <img src="film.jpg" alt="Cinematic Equipment" class="w-full h-full object-cover">
           </div>
         </div>
       </div>
@@ -424,7 +360,7 @@
               <div class="lg:w-1/2">
                 <div class="flex items-center gap-3 mb-3">
                   <span class="lg:hidden text-xs font-mono text-muted">01</span>
-                  <img src="https://z-cdn-media.chatglm.cn/files/4146b97a-aa8e-415a-9bce-5835adc1b449.jpg?auth_key=1874772568-9b7e855c14d74f3b9d95521421ab399f-0-ff802f9af20231f802c6413648038bd7" alt="Commercial" class="w-20 h-14 object-cover rounded-sm hidden lg:block">
+                  <img src="director.jpg" alt="Commercial" class="w-20 h-14 object-cover rounded-sm hidden lg:block">
                   <h3 class="font-display text-2xl md:text-3xl">Commercial Production</h3>
                 </div>
                 <p class="text-muted text-sm leading-relaxed mb-4">
@@ -438,7 +374,7 @@
                 </div>
               </div>
               <div class="lg:w-1/2 lg:block hidden">
-                <img src="https://z-cdn-media.chatglm.cn/files/4146b97a-aa8e-415a-9bce-5835adc1b449.jpg?auth_key=1874772568-9b7e855c14d74f3b9d95521421ab399f-0-ff802f9af20231f802c6413648038bd7" alt="Commercial Production" class="w-full h-48 object-cover rounded-sm">
+                <img src="director.jpg" alt="Commercial Production" class="w-full h-48 object-cover rounded-sm">
               </div>
             </div>
           </div>
@@ -455,7 +391,7 @@
               <div class="lg:w-1/2">
                 <div class="flex items-center gap-3 mb-3">
                   <span class="lg:hidden text-xs font-mono text-muted">02</span>
-                  <img src="https://z-cdn-media.chatglm.cn/files/1302605f-a305-4674-9c80-f58ee3e93463.jpg?auth_key=1874772568-6c02fe12ad5d4ae18633da2ea581e2b8-0-1f7f316a7a49aac9514e16f0b9bfdbdb" alt="Corporate" class="w-20 h-14 object-cover rounded-sm hidden lg:block">
+                  <img src="dop.jpg" alt="Corporate" class="w-20 h-14 object-cover rounded-sm hidden lg:block">
                   <h3 class="font-display text-2xl md:text-3xl">Corporate Video</h3>
                 </div>
                 <p class="text-muted text-sm leading-relaxed mb-4">
@@ -469,7 +405,7 @@
                 </div>
               </div>
               <div class="lg:w-1/2 lg:block hidden">
-                <img src="https://z-cdn-media.chatglm.cn/files/1302605f-a305-4674-9c80-f58ee3e93463.jpg?auth_key=1874772568-6c02fe12ad5d4ae18633da2ea581e2b8-0-1f7f316a7a49aac9514e16f0b9bfdbdb" alt="Corporate Video" class="w-full h-48 object-cover rounded-sm">
+                <img src="dop.jpg" alt="Corporate Video" class="w-full h-48 object-cover rounded-sm">
               </div>
             </div>
           </div>
@@ -486,7 +422,7 @@
               <div class="lg:w-1/2">
                 <div class="flex items-center gap-3 mb-3">
                   <span class="lg:hidden text-xs font-mono text-muted">03</span>
-                  <img src="https://z-cdn-media.chatglm.cn/files/72fb454d-579e-43b3-bd1c-859a3182b723.jpg?auth_key=1874772568-3246f6428e7943609b3c8cf2820829a3-0-ee6a7e5fe0cf23e2ffd9d806a37f3ed4" alt="Social" class="w-20 h-14 object-cover rounded-sm hidden lg:block">
+                  <img src="filming.jpg" alt="Social" class="w-20 h-14 object-cover rounded-sm hidden lg:block">
                   <h3 class="font-display text-2xl md:text-3xl">Social Media Content</h3>
                 </div>
                 <p class="text-muted text-sm leading-relaxed mb-4">
@@ -500,7 +436,7 @@
                 </div>
               </div>
               <div class="lg:w-1/2 lg:block hidden">
-                <img src="https://z-cdn-media.chatglm.cn/files/72fb454d-579e-43b3-bd1c-859a3182b723.jpg?auth_key=1874772568-3246f6428e7943609b3c8cf2820829a3-0-ee6a7e5fe0cf23e2ffd9d806a37f3ed4" alt="Social Media Content" class="w-full h-48 object-cover rounded-sm">
+                <img src="filming.jpg" alt="Social Media Content" class="w-full h-48 object-cover rounded-sm">
               </div>
             </div>
           </div>
@@ -517,7 +453,7 @@
               <div class="lg:w-1/2">
                 <div class="flex items-center gap-3 mb-3">
                   <span class="lg:hidden text-xs font-mono text-muted">04</span>
-                  <img src="https://z-cdn-media.chatglm.cn/files/85ba4519-0cab-464e-9a52-ceeb948d4f3d.jpg?auth_key=1874772568-72509c9cab954bceb6034f93738c0421-0-c44a4d16a1dbb680c68113c9101f711c" alt="Film" class="w-20 h-14 object-cover rounded-sm hidden lg:block">
+                  <img src="production.jpg" alt="Film" class="w-20 h-14 object-cover rounded-sm hidden lg:block">
                   <h3 class="font-display text-2xl md:text-3xl">Film Production</h3>
                 </div>
                 <p class="text-muted text-sm leading-relaxed mb-4">
@@ -531,7 +467,7 @@
                 </div>
               </div>
               <div class="lg:w-1/2 lg:block hidden">
-                <img src="https://z-cdn-media.chatglm.cn/files/85ba4519-0cab-464e-9a52-ceeb948d4f3d.jpg?auth_key=1874772568-72509c9cab954bceb6034f93738c0421-0-c44a4d16a1dbb680c68113c9101f711c" alt="Film Production" class="w-full h-48 object-cover rounded-sm">
+                <img src="production.jpg" alt="Film Production" class="w-full h-48 object-cover rounded-sm">
               </div>
             </div>
           </div>
@@ -601,7 +537,7 @@
 
     <!-- Project 1 -->
     <div class="portfolio-card interactive" data-genre="commercial">
-      <img src="https://z-cdn-media.chatglm.cn/files/4146b97a-aa8e-415a-9bce-5835adc1b449.jpg?auth_key=1874772568-9b7e855c14d74f3b9d95521421ab399f-0-ff802f9af20231f802c6413648038bd7" alt="Commercial Project" class="portfolio-thumb">
+      <img src="director.jpg" alt="Commercial Project" class="portfolio-thumb">
       <video class="portfolio-video" loop playsinline preload="metadata">
         <source src="Blackkat showreel.mp4" type="video/mp4">
       </video>
@@ -618,7 +554,7 @@
 
     <!-- Project 2 -->
     <div class="portfolio-card interactive" data-genre="film">
-      <img src="https://z-cdn-media.chatglm.cn/files/85ba4519-0cab-464e-9a52-ceeb948d4f3d.jpg?auth_key=1874772568-72509c9cab954bceb6034f93738c0421-0-c44a4d16a1dbb680c68113c9101f711c" alt="Film Project" class="portfolio-thumb">
+      <img src="film.jpg" alt="Film Project" class="portfolio-thumb">
       <video class="portfolio-video" loop playsinline preload="metadata">
         <source src="Blackkat showreel.mp4" type="video/mp4">
       </video>
@@ -635,7 +571,7 @@
 
     <!-- Project 3 -->
     <div class="portfolio-card interactive" data-genre="corporate">
-      <img src="https://z-cdn-media.chatglm.cn/files/1302605f-a305-4674-9c80-f58ee3e93463.jpg?auth_key=1874772568-6c02fe12ad5d4ae18633da2ea581e2b8-0-1f7f316a7a49aac9514e16f0b9bfdbdb" alt="Corporate Project" class="portfolio-thumb">
+      <img src="dop.jpg" alt="Corporate Project" class="portfolio-thumb">
       <video class="portfolio-video" loop playsinline preload="metadata">
         <source src="Blackkat showreel.mp4" type="video/mp4">
       </video>
@@ -652,7 +588,7 @@
 
     <!-- Project 4 -->
     <div class="portfolio-card interactive" data-genre="social">
-      <img src="https://z-cdn-media.chatglm.cn/files/72fb454d-579e-43b3-bd1c-859a3182b723.jpg?auth_key=1874772568-3246f6428e7943609b3c8cf2820829a3-0-ee6a7e5fe0cf23e2ffd9d806a37f3ed4" alt="Social Media Project" class="portfolio-thumb">
+      <img src="filming.jpg" alt="Social Media Project" class="portfolio-thumb">
       <video class="portfolio-video" loop playsinline preload="metadata">
         <source src="Blackkat showreel.mp4" type="video/mp4">
       </video>
@@ -707,26 +643,65 @@
     </div>
   </section>
 
-  <!-- ==================== CLIENTS MARQUEE ==================== -->
-  <section id="clients" class="py-16 relative border-y border-border">
-    <p class="text-center text-[0.65rem] tracking-[0.25em] uppercase text-muted mb-8">Trusted By Industry Leaders</p>
-    <div class="marquee-strip" style="border: none; background: transparent; padding: 0;">
-      <div class="marquee-track" style="animation-duration: 50s;">
-        <span class="marquee-item" style="color: rgba(255,255,255,0.3); font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; letter-spacing: 0.1em;">Client One</span>
-        <span class="marquee-item" style="color: rgba(255,255,255,0.3); font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; letter-spacing: 0.1em;">Client Two</span>
-        <span class="marquee-item" style="color: rgba(255,255,255,0.3); font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; letter-spacing: 0.1em;">Client Three</span>
-        <span class="marquee-item" style="color: rgba(255,255,255,0.3); font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; letter-spacing: 0.1em;">Client Four</span>
-        <span class="marquee-item" style="color: rgba(255,255,255,0.3); font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; letter-spacing: 0.1em;">Client Five</span>
-        <span class="marquee-item" style="color: rgba(255,255,255,0.3); font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; letter-spacing: 0.1em;">Client Six</span>
-        <span class="marquee-item" style="color: rgba(255,255,255,0.3); font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; letter-spacing: 0.1em;">Client One</span>
-        <span class="marquee-item" style="color: rgba(255,255,255,0.3); font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; letter-spacing: 0.1em;">Client Two</span>
-        <span class="marquee-item" style="color: rgba(255,255,255,0.3); font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; letter-spacing: 0.1em;">Client Three</span>
-        <span class="marquee-item" style="color: rgba(255,255,255,0.3); font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; letter-spacing: 0.1em;">Client Four</span>
-        <span class="marquee-item" style="color: rgba(255,255,255,0.3); font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; letter-spacing: 0.1em;">Client Five</span>
-        <span class="marquee-item" style="color: rgba(255,255,255,0.3); font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; letter-spacing: 0.1em;">Client Six</span>
-      </div>
+<!-- ==================== CLIENTS MARQUEE ==================== -->
+
+<section id="clients" class="py-16 relative border-y border-border">
+  <p class="text-center text-[0.65rem] tracking-[0.25em] uppercase text-muted mb-8">Trusted By Industry Leaders</p>
+  <div class="marquee-strip" style="border: none; background: transparent; padding: 0;">
+    <div class="marquee-track" style="animation-duration: 50s;">
+      
+      <span class="marquee-item" style="width: 300px; height: 120px; display: inline-block; vertical-align: middle;">
+        <img src="chinaexpresslogo.png" alt="China Express" style="width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; opacity: 0.8;">
+      </span>
+      
+      <span class="marquee-item" style="width: 300px; height: 120px; display: inline-block; vertical-align: middle;">
+        <img src="chinaexpresslogo.png" alt="Client Two" style="width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; opacity: 0.8;">
+      </span>
+      
+      <span class="marquee-item" style="width: 300px; height: 120px; display: inline-block; vertical-align: middle;">
+        <img src="chinaexpresslogo.png" alt="Client Three" style="width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; opacity: 0.8;">
+      </span>
+      
+      <span class="marquee-item" style="width: 300px; height: 120px; display: inline-block; vertical-align: middle;">
+        <img src="chinaexpresslogo.png" alt="Client Four" style="width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; opacity: 0.8;">
+      </span>
+      
+      <span class="marquee-item" style="width: 300px; height: 120px; display: inline-block; vertical-align: middle;">
+        <img src="chinaexpresslogo.png" alt="Client Five" style="width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; opacity: 0.8;">
+      </span>
+      
+      <span class="marquee-item" style="width: 300px; height: 120px; display: inline-block; vertical-align: middle;">
+        <img src="chinaexpresslogo.png" alt="Client Six" style="width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; opacity: 0.8;">
+      </span>
+      
+      <!-- Duplicate for seamless loop -->
+      <span class="marquee-item" style="width: 300px; height: 120px; display: inline-block; vertical-align: middle;">
+        <img src="chinaexpresslogo.png" alt="China Express" style="width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; opacity: 0.8;">
+      </span>
+      
+      <span class="marquee-item" style="width: 300px; height: 120px; display: inline-block; vertical-align: middle;">
+        <img src="chinaexpresslogo.png" alt="Client Two" style="width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; opacity: 0.8;">
+      </span>
+      
+      <span class="marquee-item" style="width: 300px; height: 120px; display: inline-block; vertical-align: middle;">
+        <img src="chinaexpresslogo.png" alt="Client Three" style="width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; opacity: 0.8;">
+      </span>
+      
+      <span class="marquee-item" style="width: 300px; height: 120px; display: inline-block; vertical-align: middle;">
+        <img src="chinaexpresslogo.png" alt="Client Four" style="width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; opacity: 0.8;">
+      </span>
+      
+      <span class="marquee-item" style="width: 300px; height: 120px; display: inline-block; vertical-align: middle;">
+        <img src="chinaexpresslogo.png" alt="Client Five" style="width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; opacity: 0.8;">
+      </span>
+      
+      <span class="marquee-item" style="width: 300px; height: 120px; display: inline-block; vertical-align: middle;">
+        <img src="chinaexpresslogo.png" alt="Client Six" style="width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; opacity: 0.8;">
+      </span>
+
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- ==================== CONTACT ==================== -->
   <section id="contact" class="py-28 md:py-36 px-6 md:px-10 relative">
@@ -846,12 +821,12 @@
   <footer class="py-10 px-6 md:px-10 bg-card border-t border-border">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
       <div class="flex items-center gap-3">
-        <img src="https://z-cdn-media.chatglm.cn/files/5d210005-82c7-4c73-93b8-24db34a0b28c.jpeg?auth_key=1874772568-701ec130ed334a4fb749e37201d69865-0-678b5153380bcff437b06d988c03fe6f" alt="Blackkat Pictures" class="h-7 w-auto rounded-sm">
+        <img src="Blackkat.png" alt="Blackkat Pictures" class="h-7 w-auto rounded-sm">
         <span class="text-muted text-xs">© 2024 Blackkat Pictures. All rights reserved.</span>
       </div>
       <div class="flex gap-6">
-        <a href="https://www.instagram.com/blackkatpictures_/" target="_blank" class="text-muted text-xs hover:text-accent transition-colors tracking-wider uppercase">Instagram</a>
-        <a href="https://wa.me/601123891234" target="_blank" class="text-muted text-xs hover:text-accent transition-colors tracking-wider uppercase">WhatsApp</a>
+        <a href="https://www.instagram.com/blackkatpictures_/" target="_blank" class="text-muted text-base hover:text-accent transition-colors tracking-wider uppercase">Instagram</a>
+        <a href="https://wa.me/601123891234" target="_blank" class="text-muted text-base hover:text-accent transition-colors tracking-wider uppercase">WhatsApp</a>
       </div>
     </div>
   </footer>
